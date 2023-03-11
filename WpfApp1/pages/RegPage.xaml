@@ -1,0 +1,36 @@
+﻿<Page x:Class="WpfApp1.pages.RegPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegPage">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Right">
+                <TextBlock>Логин</TextBlock>
+                <TextBox x:Name="LoginTb" Width="100" Margin="5"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Right">
+                <TextBlock>Пароль</TextBlock>
+                <PasswordBox x:Name="PasswordTb" Width="100" Margin="5"></PasswordBox>
+            </StackPanel>
+           
+            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Right">
+                <TextBlock>Имя</TextBlock>
+                <TextBox x:Name="NameTb" Width="100" Margin="5"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Right">
+                <TextBlock>Телефон</TextBlock>
+                <TextBox x:Name="PhoneTb" Width="100" Margin="5"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="RegBt" Content="Зарегистрироваться" Style="{StaticResource MyButton}" Width="160" Margin="10" Click="RegBt_Click"></Button>
+                <Button x:Name="DeletBt" Content="Очистить" Style="{StaticResource MyButton}"  Margin="10" Click="DeletBt_Click" ></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

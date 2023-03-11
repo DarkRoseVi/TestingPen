@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="32ed18c7d8dc4dcbb00ee819130bae55" Name="Diagram1">
+        <EntityTypeShape EntityType="penSiModel.Color" Width="1.5" PointX="0.75" PointY="1.625" />
+        <EntityTypeShape EntityType="penSiModel.Pen" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="penSiModel.Role" Width="1.5" PointX="2.75" PointY="5.375" />
+        <EntityTypeShape EntityType="penSiModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="penSiModel.Type" Width="1.5" PointX="0.75" PointY="7.125" />
+        <EntityTypeShape EntityType="penSiModel.Use" Width="1.5" PointX="5" PointY="5" />
+        <EntityTypeShape EntityType="penSiModel.View" Width="1.5" PointX="0.75" PointY="4.75" />
+        <AssociationConnector Association="penSiModel.FK_Pen_Color" />
+        <AssociationConnector Association="penSiModel.FK_Pen_Type" />
+        <AssociationConnector Association="penSiModel.FK_Pen_View" />
+        <AssociationConnector Association="penSiModel.FK_Use_Role" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
