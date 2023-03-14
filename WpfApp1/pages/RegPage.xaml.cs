@@ -69,10 +69,10 @@ namespace WpfApp1.pages
 
                          
                     }
-                  
-                   MessageBox.Show("Сохранено");
+                    MessageBox.Show("Сохранено");
                 }
-                MessageBox.Show("Заполните поля");
+                else
+                    MessageBox.Show("Заполните поля");
             }
             else
             {

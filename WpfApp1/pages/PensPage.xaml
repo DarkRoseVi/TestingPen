@@ -88,7 +88,7 @@
 
         </ListView>
         <StackPanel Grid.Row="2" Orientation="Horizontal">
-            <Button x:Name="AddProdBt" Style="{StaticResource MyButton}"  Content="Добавить продукт" Margin="10" Click="AddProdBt_Click"  Visibility="{Binding BtnVisible}"></Button>
+            <Button x:Name="AddProdBt" Style="{StaticResource MyButton}"  Content="Добавить продукт" Margin="10" Click="AddProdBt_Click" ></Button>
         </StackPanel>
     </Grid>
 </Page>
